@@ -534,7 +534,7 @@
     <script type="text/javascript" src="js/script.js"></script>
     <script>
       // Fetch data from API endpoint
-      fetch('http://127.0.0.1:8000/api/products/')
+      fetch('https://imrantoys1.pythonanywhere.com/api/products/')
           .then(response => response.json())
           .then(data => {
               const productList = document.getElementById('products');
@@ -582,7 +582,7 @@
             };
 
             // Example: Send data to API endpoint (replace with your actual API endpoint)
-            fetch('http://127.0.0.1:8000/api/newsletter/', {
+            fetch('https://imrantoys1.pythonanywhere.com/api/newsletter/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -609,7 +609,7 @@
 
 
           // Fetch data from API endpoint
-      fetch('http://127.0.0.1:8000/api/newproducts/')
+      fetch('https://imrantoys1.pythonanywhere.com/api/newproducts/')
           .then(response => response.json())
           .then(data => {
               const productList = document.getElementById('newproducts');
@@ -645,7 +645,7 @@
 
   
      // Fetch data from API endpoint
-     fetch('http://127.0.0.1:8000/api/ourgallery/')
+     fetch('https://imrantoys1.pythonanywhere.com/api/ourgallery/')
           .then(response => response.json())
           .then(data => {
               const ourgalleryList = document.getElementById('ourgallery');
@@ -670,7 +670,7 @@
           .catch(error => console.error('Error fetching products:', error));
   
            // Fetch data from API endpoint
-     fetch('http://127.0.0.1:8000/api/shortcattegorys/')
+     fetch('https://imrantoys1.pythonanywhere.com/api/shortcattegorys/')
           .then(response => response.json())
           .then(data => {
               const shortcattegorysList = document.getElementById('short');
@@ -692,7 +692,7 @@
   
 
                 // Fetch data from API endpoint
-     fetch('http://127.0.0.1:8000/api/lastblogs/')
+     fetch('https://imrantoys1.pythonanywhere.com/api/lastblogs/')
           .then(response => response.json())
           .then(data => {
               const lastblogsList = document.getElementById('lastblogs');
